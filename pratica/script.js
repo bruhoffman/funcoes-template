@@ -25,15 +25,16 @@ paisNome("Hong Kong"); */
 
 //PRÁTICA 2
 /* const paridade = function (num) {
-    const numero = (num % 2) === 0;
+    const par = num % 2;
     const soma = num + 10;
     const multiplica = num * num;
 
-    console.log(`O número é par? ${numero}. Somado com 10 é igual a ${soma} e multiplicado por ele mesmo é ${multiplica}.`);
+    console.log(`O número ${num} é par? ${par === 0}. Somado com 10 é igual a ${soma} e multiplicado por ele mesmo é ${multiplica}.`);
+    return `O número ${num} é par? ${par === 0}. Somado com 10 é igual a ${soma} e multiplicado por ele mesmo é ${multiplica}.`;
 }
 
-paridade(8);
-paridade(13);
+paridade(8); //retorna o resultado do console.log
+console.log(paridade(13)); // retorna o resultado do return
 paridade(6); */
 
 //PRÁTICA 3
